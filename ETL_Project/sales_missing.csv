@@ -1,0 +1,7 @@
+order_id,customer,amount,city
+1,Amit,1000,Delhi
+2,Rahul,,Mumbai
+3,,1500,Delhi
+4,John,3000,
+5,Amit,2500,Mumbai
+6,Sara,,Delhi

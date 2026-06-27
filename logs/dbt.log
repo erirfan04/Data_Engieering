@@ -1,0 +1,189 @@
+[0m10:08:13.518054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BCF896AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BD0B816F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BD0B80F70>]}
+
+
+============================== 10:08:13.518054 | 02a32ea4-4bd5-418d-af25-12c112d3f582 ==============================
+[0m10:08:13.518054 [info ] [MainThread]: Running with dbt=1.11.7
+[0m10:08:13.518054 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init snowflake_dbt_project', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m10:08:13.608934 [debug] [MainThread]: Starter project path: C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m10:08:13.712506 [info ] [MainThread]: 
+Your new dbt project "snowflake_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:08:13.726063 [info ] [MainThread]: Setting up your profile.
+[0m10:10:28.765464 [info ] [MainThread]: Profile snowflake_dbt_project written to C:\Users\DELL\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:10:28.769268 [debug] [MainThread]: Command `dbt init` succeeded at 10:10:28.769268 after 135.42 seconds
+[0m10:10:28.769268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BCF896AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BD0C24130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BD0B820E0>]}
+[0m10:10:28.770857 [debug] [MainThread]: Flushing usage events
+[0m10:10:30.604101 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:45:42.108873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE40993220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE41C922C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE41C92D40>]}
+
+
+============================== 07:45:42.114603 | 3b964a4c-570f-4241-abdd-871e739ad721 ==============================
+[0m07:45:42.114603 [info ] [MainThread]: Running with dbt=1.11.7
+[0m07:45:42.114603 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init snowflake_dbt_project', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m07:45:42.158567 [info ] [MainThread]: A project called snowflake_dbt_project already exists here.
+[0m07:45:42.158567 [debug] [MainThread]: Command `dbt init` succeeded at 07:45:42.158567 after 0.21 seconds
+[0m07:45:42.163061 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE40993220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE41D37E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE41D34610>]}
+[0m07:45:42.163061 [debug] [MainThread]: Flushing usage events
+[0m07:45:43.676846 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:46:23.792231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D4AC26D40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D4BF1A440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D4BF1B640>]}
+
+
+============================== 07:46:23.795104 | 141a9cea-1252-4157-bd56-6e82c1dfff64 ==============================
+[0m07:46:23.795104 [info ] [MainThread]: Running with dbt=1.11.7
+[0m07:46:23.795104 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init snowflake_dbt_salesAnalysis', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m07:46:23.839965 [debug] [MainThread]: Starter project path: C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m07:46:23.986193 [info ] [MainThread]: 
+Your new dbt project "snowflake_dbt_salesAnalysis" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:46:23.989066 [info ] [MainThread]: Setting up your profile.
+[0m07:47:22.403908 [error] [MainThread]: Encountered an error:
+
+[0m07:47:22.479740 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\main.py", line 483, in init
+    results = task.run()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\init.py", line 262, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\init.py", line 179, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\init.py", line 163, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\init.py", line 129, in generate_target_from_input
+    target[key] = click.prompt(
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\click\termui.py", line 171, in prompt
+    value = prompt_func(prompt)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\click\termui.py", line 154, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m07:47:22.487166 [debug] [MainThread]: Command `dbt init` failed at 07:47:22.479740 after 58.84 seconds
+[0m07:47:22.487166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D4AC26D40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D4C0FC250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D4C0FC0D0>]}
+[0m07:47:22.489177 [debug] [MainThread]: Flushing usage events
+[0m07:47:24.465493 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:48:52.995849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CEF0004F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CF00E03A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CF00E01C0>]}
+
+
+============================== 07:48:53.001606 | f190acb5-49d5-40c1-b930-eedc160d5c37 ==============================
+[0m07:48:53.001606 [info ] [MainThread]: Running with dbt=1.11.7
+[0m07:48:53.001606 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init snowflake_dbt_salesAnalysis', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m07:48:53.055633 [debug] [MainThread]: Starter project path: C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m07:48:53.080806 [info ] [MainThread]: 
+Your new dbt project "snowflake_dbt_salesAnalysis" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:48:53.080806 [info ] [MainThread]: Setting up your profile.
+[0m07:48:59.043078 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m07:48:59.043078 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m07:48:59.043078 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m07:51:33.548437 [info ] [MainThread]: Profile snowflake_dbt_salesAnalysis written to C:\Users\DELL\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m07:51:33.551641 [debug] [MainThread]: Command `dbt init` succeeded at 07:51:33.551641 after 160.72 seconds
+[0m07:51:33.553086 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CEF0004F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CF00E1450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CF00E0A00>]}
+[0m07:51:33.553086 [debug] [MainThread]: Flushing usage events
+[0m07:51:35.358398 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m06:14:50.328973 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280A968ABF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280AAA242E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280AAA24100>]}
+
+
+============================== 06:14:50.344981 | 62b0da37-d8d9-430a-9854-6a66f1cd950a ==============================
+[0m06:14:50.344981 [info ] [MainThread]: Running with dbt=1.11.7
+[0m06:14:50.345423 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt init snowflake_dbt1_projecte', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m06:14:50.399112 [debug] [MainThread]: Starter project path: C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m06:14:50.484626 [info ] [MainThread]: 
+Your new dbt project "snowflake_dbt1_projecte" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:14:50.484626 [info ] [MainThread]: Setting up your profile.
+[0m06:14:58.154185 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m06:14:58.156194 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m06:14:58.156194 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m06:20:50.014444 [info ] [MainThread]: Profile snowflake_dbt1_projecte written to C:\Users\DELL\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m06:20:50.017362 [debug] [MainThread]: Command `dbt init` succeeded at 06:20:50.017362 after 359.88 seconds
+[0m06:20:50.018358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280A968ABF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280BB517DC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280AAA240A0>]}
+[0m06:20:50.019350 [debug] [MainThread]: Flushing usage events
+[0m06:20:51.989328 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m07:01:31.371162 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002137E7C3790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002137F43DF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002137F43D2A0>]}
+
+
+============================== 07:01:31.382051 | 22775ae8-1b4c-4606-b858-347b3ddc215d ==============================
+[0m07:01:31.382051 [info ] [MainThread]: Running with dbt=1.11.7
+[0m07:01:31.382051 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init ecommerce_project', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m07:01:31.423024 [debug] [MainThread]: Starter project path: C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m07:01:31.447732 [info ] [MainThread]: 
+Your new dbt project "ecommerce_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:01:31.448760 [info ] [MainThread]: Setting up your profile.
+[0m07:01:37.117427 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m07:01:37.117427 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m07:01:37.117427 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m07:03:17.217949 [info ] [MainThread]: Profile ecommerce_project written to C:\Users\DELL\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m07:03:17.223034 [debug] [MainThread]: Command `dbt init` succeeded at 07:03:17.223034 after 106.03 seconds
+[0m07:03:17.223034 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002137E7C3790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002137F43E350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002137FAC96C0>]}
+[0m07:03:17.223034 [debug] [MainThread]: Flushing usage events
+[0m07:03:18.856658 [debug] [MainThread]: An error was encountered while trying to flush usage events

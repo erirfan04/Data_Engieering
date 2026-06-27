@@ -1,0 +1,25 @@
+[0m15:02:34.326259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023478B5B220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023479E53C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023479E50DF0>]}
+
+
+============================== 15:02:34.332668 | fb8635ac-359f-44f1-b20c-3def86796529 ==============================
+[0m15:02:34.332668 [info ] [MainThread]: Running with dbt=1.11.7
+[0m15:02:34.334672 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'D:\\Data_Engineer\\my_dbt_project', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init my_dbt_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:02:34.371914 [error] [MainThread]: Encountered an error:
+'NoneType' object is not subscriptable
+[0m15:02:34.376977 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\main.py", line 483, in init
+    results = task.run()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\init.py", line 319, in run
+    profile_name = self.get_profile_name_from_current_project()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\init.py", line 140, in get_profile_name_from_current_project
+    return dbt_project["profile"]
+TypeError: 'NoneType' object is not subscriptable
+
+[0m15:02:34.378492 [debug] [MainThread]: Command `dbt init` failed at 15:02:34.378492 after 0.27 seconds
+[0m15:02:34.379778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023478B5B220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023479E51120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023479F04700>]}
+[0m15:02:34.379778 [debug] [MainThread]: Flushing usage events
+[0m15:02:35.992951 [debug] [MainThread]: An error was encountered while trying to flush usage events
